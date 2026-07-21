@@ -1,0 +1,60 @@
+/*
+Yêu cầu:
+Hãy tạo một mảng products chứa danh sách 5 sản phẩm, mỗi sản phẩm là một object
+có các thuộc tính:
+
+- name (tên sản phẩm)
+- price (giá sản phẩm)
+- inStock (true/false – còn hàng hay không)
+Ví dụ:
+{
+name: "T-shirt",
+price: 200,
+inStock: true
+}
+1.in ra tên sản phẩm đầu tiên
+2.thay đổi giá sản phẩm thứ 2 thành 150.000 và in ra tất cả sản phẩm
+3.thêm 1 sản phẩm mới vào cuối mảng và in ra tất cả sản phẩm
+4.xóa sản phẩm cuối cùng ra khỏi danh sách và in ra tất cả sản phẩm
+5.dùng for each để in ra tất cả sản phẩm
+6.dùng map() để tạo ra mảng mới chỉ chứa giá sản phẩm
+7.dùng filter để lấy các sản phẩm còn hàng 
+8.dùng for_in để duyệt qua từng phần tử mảng đầu tiên
+*/
+
+let sp1 = {
+    name: "laptop",
+    price: 5000000,
+    inStock: true
+};
+
+let sp2 = {
+    name: "phone",
+    price: 200000,
+    inStock: true
+}
+
+let sp3 = {
+    name: "radio",
+    price: 100000,
+    inStock: false
+}
+
+let sp4 = {
+    name: "headphone",
+    price: 400000,
+    inStock: true
+}
+
+let sp5 = {
+    name: "fan",
+    price: 38000,
+    inStock: false
+}
+
+let products = [sp1, sp2, sp3, sp4, sp5];
+
+//in ra tên sản phẩm 1
+console.log(`name sp1: ${prouct[sp1.name]}`);
+
+//
