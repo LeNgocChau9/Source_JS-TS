@@ -79,3 +79,28 @@ products.push(sp6 = {
 console.log("=================");
 
 console.log(products)
+
+// xóa sản phẩm cuối cùng ra khỏi mảng 
+
+products.pop();
+
+console.log("=============");
+
+console.log(products);
+
+// dùng for_each để in ra các phần tử của mảng
+console.log("=========");
+
+products.forEach((value,index)=>{
+    console.log(`sp ${index}`);
+    for(let key in value){
+        console.log(key, ":",value[key]);
+    }
+    console.log("=========")
+})
+
+// dùng map để tạo ra mảng mới chỉ chứa giá sản phẩm
+
+products.map((value, index)=>{
+    
+})
