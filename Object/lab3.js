@@ -100,7 +100,17 @@ products.forEach((value,index)=>{
 })
 
 // dùng map để tạo ra mảng mới chỉ chứa giá sản phẩm
-
+const productsV2 = [];
 products.map((value, index)=>{
-    
+    productsV2.push(value.price);
 })
+
+console.log(productsV2);
+// dùng phương thức filter để lấy các hàng còn trong kho
+console.log("===============");
+
+const checkStock = products.filter((value)=>{
+    return value.inStock === true;
+})
+
+console.log(checkStock);
