@@ -30,7 +30,7 @@ let sp1 = {
 
 let sp2 = {
     name: "phone",
-    price: 200000,
+    price: 700000,
     inStock: true
 }
 
@@ -55,6 +55,27 @@ let sp5 = {
 let products = [sp1, sp2, sp3, sp4, sp5];
 
 //in ra tên sản phẩm 1
-console.log(`name sp1: ${prouct[sp1.name]}`);
+console.log(`sp1 name: ${sp1.name}`);
 
-//
+//thay đổi giá của sản phẩm thứ 2
+
+const updatePrice = (nameSP,priceUpdate) => {
+    nameSP.price = priceUpdate;
+}
+
+updatePrice(sp2,20000);
+
+console.log(sp2);
+console.log("=============")
+console.log(products);
+
+// thêm 1 sản phẩm vào cuối mảng và in ra tất cả sản phẩm 
+
+products.push(sp6 = {
+    name: "board",
+    price: 300000,
+    inStock: true
+})
+console.log("=================");
+
+console.log(products)
