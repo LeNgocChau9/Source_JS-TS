@@ -24,5 +24,11 @@ sinhVien.forEach((name,index)=>{
     console.log(`stt: ${index},`," name: ",name);
 })
 
+// for in dùng để lập ra cái thuộc tính của đối tượng 
 
+
+for(let key in sinhVien){
+    console.log(key);
+    console.log(sinhVien[key]);
+}
 
