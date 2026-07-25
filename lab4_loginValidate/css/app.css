@@ -1,0 +1,19 @@
+body {
+    background: url('../asset/images.jpg');
+    background-size: cover;
+}
+
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formLogin {
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    padding: 30px, 30px, 30px;
+    box-shadow: ;
+}
