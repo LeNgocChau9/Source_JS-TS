@@ -75,3 +75,11 @@ console.log(findProducts);
 
 // map map clone 1 array 
 console.log("==================================");
+
+const mapProducts = products.map((product) => {
+    return {
+        ...product,
+        "rating": 5
+    }
+})
+console.log(mapProducts)
